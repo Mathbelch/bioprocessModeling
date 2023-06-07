@@ -40,5 +40,10 @@ plt.plot(t,P)
 plt.plot(t,S)
 plt.xlabel('Time [h])')
 plt.ylabel('Cell [bil/mL]')
+
+experimental_data = np.loadtxt('trichoderma_reesei_data.txt') # time X B (basis article makes modeling only with biomass)
+
+plt.plot(experimental_data[:,0], experimental_data[:,1], 'bo')
+
 plt.show()
    
