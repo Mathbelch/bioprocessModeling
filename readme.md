@@ -1,4 +1,4 @@
-# Simple Modeling for generic biodigester in batch mode:
+# Simple Modeling for generic biodigester in batch mode: biorreactor_1.py
 
 ## Hypotheses:
 <ul>
